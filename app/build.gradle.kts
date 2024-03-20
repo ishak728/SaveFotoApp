@@ -169,6 +169,17 @@ dependencies {
     // classpath.
     androidTestImplementation( "androidx.test.espresso:espresso-idling-resource:3.5.1")
 
+    //gson
+    implementation ("com.google.code.gson:gson:2.10.1")
+
+    //retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+
+    // GSON
+
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
 
 
 }
