@@ -70,6 +70,11 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
 
+
+    // glide
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
+
     //*navigation dependency
 
     val nav_version = "2.7.7"
@@ -88,6 +93,7 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.48.1")
     kapt("androidx.hilt:hilt-compiler:1.0.0")
     implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
+    //implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0")
 
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
